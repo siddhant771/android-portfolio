@@ -13,6 +13,6 @@
   "instagram": "",
   "youtube": "",
   "leetcode": "",
-  "lifequestGithub": "",
-  "lifequestDescription": "A gamified self-improvement Android app turning daily goals into quests, XP, levels and streaks. Currently building it in Kotlin and Jetpack Compose, with more features planned as the project evolves."
+  "lifequestGithub": "https://github.com/siddhant771/LifeQuest",
+  "lifequestDescription": "Currently building a gamified self-improvement app with Kotlin and Jetpack Compose. Daily quests, XP, levels, streaks and progress tracking are planned, with a Java Spring Boot backend to come. Not yet released on Google Play."
 }

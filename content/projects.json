@@ -1,7 +1,90 @@
 [
-  {"id":"paisapulse","title":"PaisaPulse Ledger","type":"FEATURED · LIVE ON GOOGLE PLAY","description":"A personal finance Android app that automatically tracks transactions from SMS, uses AI-assisted categorization and helps people understand spending through budgets and analytics.","technologies":["Kotlin","Jetpack Compose","MVVM","Room","WorkManager","FastAPI"],"github":"","playStore":"https://play.google.com/store/apps/details?id=com.siddhant.paisapulse","screenshots":["/projects/paisapulse/screen-1.png","/projects/paisapulse/screen-2.png","/projects/paisapulse/screen-3.png","/projects/paisapulse/screen-4.png"]},
-  {"id":"project-2","title":"Your second project","type":"ANDROID PROJECT","description":"Add your project title, GitHub link and screenshots in content/projects.json.","technologies":[],"github":"","playStore":"","screenshots":[]},
-  {"id":"project-3","title":"Your third project","type":"ANDROID PROJECT","description":"Add your project title, GitHub link and screenshots in content/projects.json.","technologies":[],"github":"","playStore":"","screenshots":[]},
-  {"id":"project-4","title":"Your fourth project","type":"ANDROID PROJECT","description":"Add your project title, GitHub link and screenshots in content/projects.json.","technologies":[],"github":"","playStore":"","screenshots":[]},
-  {"id":"project-5","title":"Your fifth project","type":"ANDROID PROJECT","description":"Add your project title, GitHub link and screenshots in content/projects.json.","technologies":[],"github":"","playStore":"","screenshots":[]}
+  {
+    "id": "paisapulse",
+    "title": "PaisaPulse Ledger",
+    "type": "FEATURED · LIVE ON GOOGLE PLAY",
+    "description": "An Android personal finance app that detects banking transactions from SMS, categorizes expenses using an AI-powered FastAPI service, and helps users manage budgets, track spending, and export transaction data. Built and released independently on Google Play, with background processing and duplicate prevention.",
+    "technologies": [
+      "Kotlin",
+      "Jetpack Compose",
+      "MVVM",
+      "Room",
+      "WorkManager",
+      "FastAPI",
+      "Firebase"
+    ],
+    "github": "https://github.com/SETHROLLINSISMYGOAT/PaisaPulse",
+    "playStore": "https://play.google.com/store/apps/details?id=com.siddhant.paisapulse",
+    "screenshots": [
+      "/projects/paisapulse/screen-1.png",
+      "/projects/paisapulse/screen-2.png",
+      "/projects/paisapulse/screen-3.png",
+      "/projects/paisapulse/screen-4.png"
+    ]
+  },
+  {
+    "id": "devpulse",
+    "title": "DevPulse AI ⚡",
+    "type": "ANDROID · AI DEVELOPER TOOL",
+    "description": "Offline-first developer debugging companion: sends stack traces and snippets to Gemini for concise actionable diagnostics, with Room-backed history and fast local search. Built with MVVM, clean architecture and Hilt.",
+    "technologies": [
+      "Kotlin",
+      "Compose",
+      "Gemini API",
+      "Room",
+      "Hilt",
+      "Retrofit"
+    ],
+    "github": "https://github.com/SETHROLLINSISMYGOAT/DevPulse",
+    "playStore": "",
+    "screenshots": []
+  },
+  {
+    "id": "studymate",
+    "title": "StudyMate AI",
+    "type": "ANDROID · AI LEARNING COMPANION",
+    "description": "A study companion for AI tutoring, quizzes, flashcards and planning, with local progress tracking. GPT-5.6 integration is designed through a secure server gateway; live AI requires backend configuration.",
+    "technologies": [
+      "Kotlin",
+      "Compose",
+      "MVVM",
+      "Room",
+      "Hilt",
+      "GPT-5.6 API"
+    ],
+    "github": "https://github.com/SETHROLLINSISMYGOAT/StudyMateAI",
+    "playStore": "",
+    "screenshots": []
+  },
+  {
+    "id": "postexplorer",
+    "title": "PostExplorer",
+    "type": "ANDROID · REST API INTEGRATION",
+    "description": "A Kotlin and Jetpack Compose practice app exploring REST API integration with JSONPlaceholder, Retrofit, asynchronous loading and a clean list-based interface.",
+    "technologies": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Retrofit",
+      "REST API"
+    ],
+    "github": "https://github.com/SETHROLLINSISMYGOAT/PostExplorer",
+    "playStore": "",
+    "screenshots": []
+  },
+  {
+    "id": "whatsappmega",
+    "title": "WhatsappMEGA",
+    "type": "ANDROID · AUTHENTICATION & UI",
+    "description": "A WhatsApp-inspired Android onboarding and authentication flow with splash screen, welcome screen, phone-number OTP sign-in, Firebase Authentication, Hilt and MVVM.",
+    "technologies": [
+      "Kotlin",
+      "Compose",
+      "Firebase Auth",
+      "Hilt",
+      "MVVM"
+    ],
+    "github": "https://github.com/SETHROLLINSISMYGOAT/WhatsappMEGA",
+    "playStore": "",
+    "screenshots": []
+  }
 ]
