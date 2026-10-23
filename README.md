@@ -2,7 +2,7 @@
 
 A recruiter-focused, responsive Next.js + Tailwind CSS static portfolio. All current projects are free to view. No backend, checkout or payment system.
 
-## Your 3 main editing files
+##3 main editing files
 
 **`content/site.json`** — Edit your name, intro, About section, GitHub, LinkedIn, X, Instagram, YouTube and LifeQuest repository link. Leave a social URL empty to hide it.
 
