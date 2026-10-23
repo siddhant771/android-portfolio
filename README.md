@@ -1,67 +1,54 @@
 # Siddhant Pathak — Android Developer Portfolio
 
-A recruiter-focused, responsive Next.js + Tailwind CSS static portfolio. All current projects are free to view. No backend, checkout or payment system.
+I built my personal developer portfolio using **Next.js and Tailwind CSS** to showcase my Android projects, technical skills, and development journey.
 
-##3 main editing files
+The website is responsive, easy to navigate, and designed to help recruiters explore my work. All my current projects are free to view, and I plan to keep adding new ones as I build them.
 
-**`content/site.json`** — Edit your name, intro, About section, GitHub, LinkedIn, X, Instagram, YouTube and LifeQuest repository link. Leave a social URL empty to hide it.
+## Projects
 
-**`content/projects.json`** — Five project entries. The first is PaisaPulse Ledger. For projects 2–5, change `title`, `github`, and `screenshots`. Other fields are optional. For example:
+I've currently added five projects:
 
-```json
-{
-  "id": "project-2",
-  "title": "My Android Project",
-  "type": "ANDROID PROJECT",
-  "description": "",
-  "technologies": [],
-  "github": "https://github.com/siddhant771/my-project",
-  "playStore": "",
-  "screenshots": ["/projects/project-2/screen-1.png"]
-}
-```
+1. **PaisaPulse Ledger** — My personal finance Android app, published on the Google Play Store.
+2. **DevPulse AI**
+3. **StudyMate AI**
+4. **PostExplorer**
+5. **WhatsappMEGA**
 
-**`public/projects/project-2/`** (or project-3, -4, -5) — Upload screenshot images into the corresponding folder using GitHub's **Add file → Upload files**. Then add those exact image paths to `content/projects.json`. For example `public/projects/project-2/screen-1.png` becomes `/projects/project-2/screen-1.png` in JSON. If there are no screenshots, the website shows a tasteful placeholder.
+I've also included **LifeQuest**, an Android project I'm currently building.
 
-The PaisaPulse screenshots are cropped from the exact Play Store screenshot you supplied, without redesigning the app. Replace them with original full-resolution captures later for sharper visuals.
+## How I manage the website
 
-**`public/resume/Siddhant-Pathak.pdf`** — Replace this PDF with your updated resume (keep the filename).
+I wanted to keep things simple, so I made the portfolio easy to update without changing the main website code.
 
-## Publish to GitHub without writing code
+- `content/site.json` — I can update my introduction, About section, and social links here.
+- `content/projects.json` — I can add project details, GitHub repositories, technologies, and screenshots.
+- `public/projects/` — I store screenshots for each project in separate folders.
+- `public/resume/Siddhant-Pathak.pdf` — I can replace my resume whenever I update it.
 
-1. Create public repository `siddhant771/android-portfolio`.
-2. Extract this ZIP. Upload **contents of the folder** (not the ZIP itself) to your repo. GitHub's web uploader may be awkward for nested directories; GitHub Desktop is an easy no-code alternative.
-3. Commit the changes.
-4. On Cloudflare, go to Workers & Pages → Create Pages project → Connect GitHub repository.
-5. Select `android-portfolio`. Build command: `npm run build`. Build output directory: `out`. No environment variables are required.
-6. Deploy. You'll get a free `*.pages.dev` URL.
-7. After the site is live, request a free `*.is-a.dev` subdomain at https://docs.is-a.dev/quickstart/ and follow their Cloudflare Pages guide. Approval and availability are not guaranteed.
+For now, the website doesn't need a backend, database, or payment system.
 
-## Updating projects later
+## Screenshots and project updates
 
-Open `content/projects.json` on GitHub → pencil icon → edit text/links → Commit. For screenshots, upload them into `public/projects/project-N/` and add their paths. Cloudflare Pages automatically redeploys from the main branch.
+I've added four screenshots of PaisaPulse Ledger and three preview frames from DevPulse AI to the updated portfolio ZIP.
 
-**Note:** GitHub editing is no-code in the sense that you only edit simple data fields and upload files. The JSON syntax must remain valid (quotes, commas, brackets). There is no admin dashboard.
+I still need to upload these new images to my GitHub repository and update their paths so they appear on the live website.
 
-## Optional local run
+My older projects are linked to my previous GitHub account, while my current GitHub account is **siddhant771**.
 
-Requires Node.js 20 or later.
+## Deployment
 
-```bash
-npm install
-npm run dev
-```
+I'm using GitHub to manage the project and Cloudflare Pages for free hosting.
 
-Open http://localhost:3000. To test production output: `npm run build`.
+Whenever I update the project files and push changes to GitHub, Cloudflare Pages can automatically rebuild and deploy the website.
 
-## Costs
+I also plan to use a free `is-a.dev` subdomain if my request gets approved.
 
-The static site can be hosted within Cloudflare Pages' free tier, subject to limits. `is-a.dev` subdomains are free subject to rules and approval. This does not provide ownership of `siddhant.dev`. If you later monetize the website, re-check your hosting and subdomain terms.
+## What's next?
 
-## 2026 portfolio update
+Right now, my focus is on showcasing the projects I've already built and shipped. I want to keep improving the portfolio as I work on more Android applications and backend projects.
 
-Projects: PaisaPulse Ledger, DevPulse AI, StudyMate AI, PostExplorer, and WhatsappMEGA. All five project GitHub links point to the earlier `SETHROLLINSISMYGOAT` account. LifeQuest is a separate in-development project on `siddhant771`.
+Later, I might add paid source-code downloads for some private projects, but everything currently listed is free to explore.
 
-**Screenshots pending:** The updated downloadable ZIP contains the four newly supplied PaisaPulse JPG screenshots and three extracted DevPulse JPG video frames. The GitHub-hosted website currently uses its four existing PaisaPulse PNGs and a DevPulse placeholder until those seven new JPEG assets are uploaded into `public/projects/paisapulse/` and `public/projects/devpulse/`. Then update the `screenshots` paths in `content/projects.json` to the `.jpg` paths found in the ZIP.
+**GitHub:** https://github.com/siddhant771/android-portfolio
 
-The Get in touch button is deliberately displayed as disabled, as requested.
+This portfolio is something I'll keep updating as I learn, build, and ship more projects.
