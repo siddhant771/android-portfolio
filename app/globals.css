@@ -14,3 +14,11 @@
 .building-status{font-size:10px;color:#b9fa69;letter-spacing:.08em;margin:18px 0 22px}
 @media(max-width:700px){.feature-screens{gap:12px;padding:22px 17px}.feature-screens img{width:160px;min-width:160px;max-width:none;height:320px}.feature{min-width:0}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* PaisaPulse screenshot gallery — show every image in full, no horizontal crop */
+.feature-screens{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;overflow:visible!important;overflow-x:visible!important;justify-items:center!important;align-items:center!important;scroll-snap-type:none!important;gap:18px!important;padding:30px 24px!important}
+.feature-screens img{display:block!important;width:100%!important;max-width:180px!important;min-width:0!important;height:290px!important;object-fit:contain!important;flex-shrink:1!important;transform:none!important;scroll-snap-align:none!important;border-radius:12px!important}
+.feature-screens img:hover{transform:none!important}
+@media(max-width:1000px){.feature-screens{gap:14px!important;padding:24px 16px!important}.feature-screens img{max-width:190px!important;height:280px!important}}
+@media(max-width:700px){.feature-screens{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important;padding:22px 12px!important}.feature-screens img{max-width:150px!important;height:240px!important}}
+@media(max-width:400px){.feature-screens{gap:8px!important;padding:18px 8px!important}.feature-screens img{max-width:125px!important;height:205px!important}}
