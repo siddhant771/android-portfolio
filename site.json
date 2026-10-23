@@ -1,0 +1,18 @@
+{
+  "name": "Siddhant Pathak",
+  "role": "Android Developer",
+  "eyebrow": "2026 COMPUTER SCIENCE GRADUATE · VIT-AP",
+  "headline": "I build Android apps that make it to the real world.",
+  "intro": "Android developer specializing in Kotlin, Jetpack Compose and modern app architecture. I build thoughtful mobile experiences, reliable data pipelines and the backends that power them.",
+  "about": "I'm a 2026 Computer Science and Engineering graduate from VIT-AP, focused on building production-minded Android applications. I independently built and published PaisaPulse Ledger on Google Play, from Compose UI and Room persistence to background SMS processing and a deployed FastAPI backend. I also have experience with Java Spring Boot APIs and Flutter development, including an internship at My3 Digital.",
+  "email": "siddhantpathak128@gmail.com",
+  "github": "https://github.com/siddhant771",
+  "legacyGithub": "https://github.com/SETHROLLINSISMYGOAT",
+  "linkedin": "https://www.linkedin.com/in/siddhant-pathak-326988267/",
+  "x": "https://x.com/siddhubhaiyaa",
+  "instagram": "",
+  "youtube": "",
+  "leetcode": "",
+  "lifequestGithub": "",
+  "lifequestDescription": "A gamified self-improvement Android app turning daily goals into quests, XP, levels and streaks. Currently building it in Kotlin and Jetpack Compose, with more features planned as the project evolves."
+}

@@ -1,0 +1,7 @@
+[
+  {"id":"paisapulse","title":"PaisaPulse Ledger","type":"FEATURED · LIVE ON GOOGLE PLAY","description":"A personal finance Android app that automatically tracks transactions from SMS, uses AI-assisted categorization and helps people understand spending through budgets and analytics.","technologies":["Kotlin","Jetpack Compose","MVVM","Room","WorkManager","FastAPI"],"github":"","playStore":"https://play.google.com/store/apps/details?id=com.siddhant.paisapulse","screenshots":["/projects/paisapulse/screen-1.png","/projects/paisapulse/screen-2.png","/projects/paisapulse/screen-3.png","/projects/paisapulse/screen-4.png"]},
+  {"id":"project-2","title":"Your second project","type":"ANDROID PROJECT","description":"Add your project title, GitHub link and screenshots in content/projects.json.","technologies":[],"github":"","playStore":"","screenshots":[]},
+  {"id":"project-3","title":"Your third project","type":"ANDROID PROJECT","description":"Add your project title, GitHub link and screenshots in content/projects.json.","technologies":[],"github":"","playStore":"","screenshots":[]},
+  {"id":"project-4","title":"Your fourth project","type":"ANDROID PROJECT","description":"Add your project title, GitHub link and screenshots in content/projects.json.","technologies":[],"github":"","playStore":"","screenshots":[]},
+  {"id":"project-5","title":"Your fifth project","type":"ANDROID PROJECT","description":"Add your project title, GitHub link and screenshots in content/projects.json.","technologies":[],"github":"","playStore":"","screenshots":[]}
+]
