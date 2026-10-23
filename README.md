@@ -57,3 +57,11 @@ Open http://localhost:3000. To test production output: `npm run build`.
 ## Costs
 
 The static site can be hosted within Cloudflare Pages' free tier, subject to limits. `is-a.dev` subdomains are free subject to rules and approval. This does not provide ownership of `siddhant.dev`. If you later monetize the website, re-check your hosting and subdomain terms.
+
+## 2026 portfolio update
+
+Projects: PaisaPulse Ledger, DevPulse AI, StudyMate AI, PostExplorer, and WhatsappMEGA. All five project GitHub links point to the earlier `SETHROLLINSISMYGOAT` account. LifeQuest is a separate in-development project on `siddhant771`.
+
+**Screenshots pending:** The updated downloadable ZIP contains the four newly supplied PaisaPulse JPG screenshots and three extracted DevPulse JPG video frames. The GitHub-hosted website currently uses its four existing PaisaPulse PNGs and a DevPulse placeholder until those seven new JPEG assets are uploaded into `public/projects/paisapulse/` and `public/projects/devpulse/`. Then update the `screenshots` paths in `content/projects.json` to the `.jpg` paths found in the ZIP.
+
+The Get in touch button is deliberately displayed as disabled, as requested.
