@@ -38,3 +38,19 @@
 .screen-frame{width:100%;max-width:none;min-width:0;overflow:visible;align-items:center;justify-content:center}
 .screen-frame img{display:block!important;width:auto!important;height:auto!important;max-width:100%!important;max-height:340px!important;object-fit:contain!important;object-position:center!important}
 @media(max-width:700px){.phone-stack{inset:60px 18px 48px}.feature-screens{gap:10px!important;padding:12px!important}.screen-frame img{max-height:290px!important}}
+
+/* Profile identity lockup and creator section */
+.profile-lockup{display:flex;align-items:center;gap:18px;margin:0 0 28px;padding:13px 16px 13px 13px;width:max-content;max-width:100%;border:1px solid #344638;background:#111a14;border-radius:13px;box-shadow:0 14px 36px #0003}
+.profile-photo{width:88px;height:104px;object-fit:cover;object-position:center 24%;border-radius:9px;border:1px solid #718b65;display:block}
+.profile-name{font:700 23px 'Space Grotesk',sans-serif;letter-spacing:-.035em;margin:0 0 5px;color:#f0f7ef}
+.profile-slogan{font:600 15px 'Space Grotesk',sans-serif;line-height:1.35;margin:0;color:var(--lime)}
+.profile-role{font-size:9px;letter-spacing:.09em;color:#9eafa1;margin:8px 0 0}
+.creator-section{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr;gap:20px}
+.creator-section>div{max-width:780px;margin:auto;text-align:center}
+.creator-section h2{font:600 clamp(35px,4vw,52px) 'Space Grotesk',sans-serif;letter-spacing:-.05em;margin:16px 0}
+.creator-section h2 span{color:var(--lime)}
+.creator-section p:not(.kicker){color:#b0beb2;line-height:1.9}
+.creator-links{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:24px}
+.creator-links a{border:1px solid #344537;border-radius:7px;padding:12px 15px;font-size:12px}
+.creator-links a:hover{border-color:var(--lime);color:var(--lime)}
+@media(max-width:700px){.profile-lockup{gap:13px;margin-bottom:25px}.profile-photo{width:76px;height:92px}.profile-name{font-size:20px}.profile-slogan{font-size:13px}.profile-role{font-size:8px}.creator-links{flex-direction:column}}
