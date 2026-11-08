@@ -3,17 +3,18 @@
     "id": "paisapulse",
     "title": "PaisaPulse Ledger",
     "type": "FEATURED · LIVE ON GOOGLE PLAY",
-    "description": "An Android personal finance app that detects banking transactions from SMS, categorizes expenses using an AI-powered FastAPI service, and helps users manage budgets, track spending, and export transaction data. Built and released independently on Google Play, with background processing and duplicate prevention.",
+    "description": "A personal finance Android app that detects banking transactions from SMS, categorizes expenses, tracks monthly budgets, visualizes spending, supports manual entries and CSV export, and protects access with a biometric lock. Built with Kotlin and Jetpack Compose, with local persistence and background processing. Its categorization backend has been migrated from FastAPI to Java Spring Boot.",
     "technologies": [
       "Kotlin",
       "Jetpack Compose",
       "MVVM",
       "Room",
+      "Hilt",
       "WorkManager",
-      "FastAPI",
-      "Firebase"
+      "Spring Boot",
+      "Retrofit"
     ],
-    "github": "https://github.com/SETHROLLINSISMYGOAT/PaisaPulse",
+    "github": "https://github.com/siddhant771/PaisaPulse-Ledger",
     "playStore": "https://play.google.com/store/apps/details?id=com.siddhant.paisapulse",
     "screenshots": [
       "/projects/paisapulse/screen-1.jpg",
@@ -23,17 +24,52 @@
     ]
   },
   {
+    "id": "gatekeeper",
+    "title": "API Gateway – GateKeeper",
+    "type": "JAVA · BACKEND SYSTEMS",
+    "description": "Designed a custom API Gateway with Spring Boot rather than relying on Spring Cloud Gateway. Includes an API Management Service for configuration, centralized dynamic routing through a Smart Gateway Service, and secure access with Spring Security and JWT. Redis supports rate limiting, while Apache Kafka enables asynchronous analytics events. MySQL stores API management data and MongoDB stores analytics data.",
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "JWT",
+      "Redis",
+      "Apache Kafka",
+      "MySQL",
+      "MongoDB"
+    ],
+    "github": "https://github.com/siddhant771/API-Gateway",
+    "playStore": "",
+    "screenshots": []
+  },
+  {
+    "id": "fincart",
+    "title": "FinCart – Personal Finance REST API",
+    "type": "JAVA · REST API",
+    "description": "Built REST APIs for authentication and expense management with CRUD operations, pagination, sorting and category-based filtering. Implemented JWT authentication with Spring Security, BCrypt password hashing, resource-ownership checks, request validation and centralized exception handling. Uses Spring Data JPA/Hibernate with PostgreSQL and Docker Compose for reproducible local development.",
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "JWT",
+      "PostgreSQL",
+      "JPA / Hibernate",
+      "Docker"
+    ],
+    "github": "https://github.com/siddhant771/fincart-backendjava",
+    "playStore": "",
+    "screenshots": []
+  },
+  {
     "id": "devpulse",
-    "title": "DevPulse AI ⚡",
-    "type": "ANDROID · AI DEVELOPER TOOL",
-    "description": "Offline-first developer debugging companion: sends stack traces and snippets to Gemini for concise actionable diagnostics, with Room-backed history and fast local search. Built with MVVM, clean architecture and Hilt.",
+    "title": "DevPulse AI",
+    "type": "ANDROID · DEVELOPER TOOL",
+    "description": "An Android developer companion concept for organizing debugging notes and development workflows. See the repository for implementation details.",
     "technologies": [
       "Kotlin",
-      "Compose",
-      "Gemini API",
+      "Jetpack Compose",
       "Room",
-      "Hilt",
-      "Retrofit"
+      "Hilt"
     ],
     "github": "https://github.com/SETHROLLINSISMYGOAT/DevPulse",
     "playStore": "",
@@ -42,48 +78,15 @@
   {
     "id": "studymate",
     "title": "StudyMate AI",
-    "type": "ANDROID · AI LEARNING COMPANION",
-    "description": "A study companion for AI tutoring, quizzes, flashcards and planning, with local progress tracking. GPT-5.6 integration is designed through a secure server gateway; live AI requires backend configuration.",
-    "technologies": [
-      "Kotlin",
-      "Compose",
-      "MVVM",
-      "Room",
-      "Hilt",
-      "GPT-5.6 API"
-    ],
-    "github": "https://github.com/SETHROLLINSISMYGOAT/StudyMateAI",
-    "playStore": "",
-    "screenshots": []
-  },
-  {
-    "id": "postexplorer",
-    "title": "PostExplorer",
-    "type": "ANDROID · REST API INTEGRATION",
-    "description": "A Kotlin and Jetpack Compose practice app exploring REST API integration with JSONPlaceholder, Retrofit, asynchronous loading and a clean list-based interface.",
+    "type": "ANDROID · LEARNING COMPANION",
+    "description": "An Android learning companion project. Explore the repository for its current features and implementation.",
     "technologies": [
       "Kotlin",
       "Jetpack Compose",
-      "Retrofit",
-      "REST API"
+      "MVVM",
+      "Room"
     ],
-    "github": "https://github.com/SETHROLLINSISMYGOAT/PostExplorer",
-    "playStore": "",
-    "screenshots": []
-  },
-  {
-    "id": "whatsappmega",
-    "title": "WhatsappMEGA",
-    "type": "ANDROID · AUTHENTICATION & UI",
-    "description": "A WhatsApp-inspired Android onboarding and authentication flow with splash screen, welcome screen, phone-number OTP sign-in, Firebase Authentication, Hilt and MVVM.",
-    "technologies": [
-      "Kotlin",
-      "Compose",
-      "Firebase Auth",
-      "Hilt",
-      "MVVM"
-    ],
-    "github": "https://github.com/SETHROLLINSISMYGOAT/WhatsappMEGA",
+    "github": "https://github.com/SETHROLLINSISMYGOAT/StudyMateAI",
     "playStore": "",
     "screenshots": []
   }
